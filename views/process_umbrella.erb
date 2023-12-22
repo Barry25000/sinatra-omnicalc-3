@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Target: Omnicalc 3</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+<dl>
+  <dt>User location</dt>
+  <dd><%= @user_location %></dd>
+
+  <dt>Latitude</dt>
+  <dd><%= @lats %></dd>
+
+  <dt>Longitude</dt>
+  <dd><%= @lngs %></dd>
+
+  <dt>Current temperature</dt>
+  <dd><%=  @current_temp %></dd>
+
+  <dt>Current summary</dt>
+  <dd><%= @summary %></dd>
+
+  <dt>Umbrella?</dt>
+  <dd><%= @umbrella %></dd>
+</dl>
+
+<a href="/umbrella">Go back</a>
+
+  </body>
+</html>
